@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Counter.css" type="text/css">
+</head>
+<body>
+    <div class="overall">
+        <div class="head">
+            <h1>COUNTER</h1>
+            <div class="num">
+                <h1 id="num">0</h1>
+            </div>
+        </div>
+        <div class="line1">
+            <button id="inc" onclick="increaseCount()">INCREASE</button>
+            <button id="dec" onclick="reduceCount()">DECREASE</button>
+        </div>
+        <div class="line2">
+            <button id="save" onclick="save()">SAVE</button>
+            <button id="reset" onclick="reset()">RESET</button>
+        </div>
+
+        <div class="line3">
+            <button id="incby2" onclick="increaseCountby2()">+2</button>
+            <button id="decby2" onclick="reduceCountby2()">-2</button>
+        </div>
+
+        <div class="down">
+            <h1>TOTAL:</h1>
+            <h1 id="tot">0</h1>
+        </div>
+
+        <div class="clear">
+            <button id="cleartot" onclick="cleartotal()">CLEAR TOTAL</button>
+        </div>
+    </div>
+
+    <script src="Counter.js">
+        
+            // let num = 0;
+            // let hrn = 0;
+
+            // function increaseCount(){
+            //  num++;
+
+            //  document.getElementById('num').innerText = num;
+            // }
+
+            // function reduceCount(){
+            //   num -= 1;
+
+            //   document.getElementById('num').innerText = num;
+            // }
+
+            // function reset(){
+            //   num = 0;
+
+            //   document.getElementById('num').innerText = num;
+            // }
+
+            // function save(){
+            //     hrn += num
+            //     document.getElementById('tot').innerText = hrn;
+            
+            // }
+    </script>
+</body>
+</html>
